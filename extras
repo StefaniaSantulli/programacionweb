@@ -1,0 +1,48 @@
+<header>
+    <div class="headermax" > <!-- la navbar cuando esta la pantalla completa -->
+            <div class="row align-items-center" >
+              <div class="col text-center">
+                <a href="#cont3"><input type="button" value="productos" id="boton2"> </a>
+                
+              </div>
+              <div class="col-6 ">
+                logo 
+              </div>
+              <div class="col text-center">
+                <a href="#div4"><input type="button" value="contacto" id="boton2"> </a>
+              </div>
+            
+            </div>
+        </div>
+    </header>
+    
+    <div class="headermin" id="headermin" role="group"> <!-- la navbar cuando se minimiza la pantalla -->
+        <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+          <menu></menu>
+        </button>
+        <ul class="dropdown-menu bg-primary">
+          <li><a class="dropdown-item" href="#divproductos">productos</a></li>
+          <li><a class="dropdown-item" href="#div4">contacto</a></li>
+        </ul>
+      </div>
+    
+    
+    </div>
+
+.fixed{
+    position: fixed;
+    bottom:0;
+    right: 0ch;
+    padding-right: 10px;
+}
+
+img src="./imagenes/favicon.jpg" alt="" width="40" height="140"/>
+
+fotogato.webp
+
+#h0{/*  margen de nustros productos */
+    font-size: 40px;
+    text-align: center;
+    background-color: #c8b393;
+    padding: 0px;
+}

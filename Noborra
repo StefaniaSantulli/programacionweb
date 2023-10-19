@@ -1,0 +1,38 @@
+<div class="container03" id="divproductos">
+    <div class>
+    <div class="row align-items-center" id="h0">
+        <button type="button" class="btn btn-outline-success" style="color: #FFFFFF;">Mi Trabajo</button>
+
+        </div> 
+      
+    </div></div> 
+
+
+#div1,.container{ /* titulo principal */
+        background-color:  #d4d2b4;
+        width:100%;
+        display:flex;
+        justify-content: center;
+        height: 400px;
+        padding: 70px;
+        font-size: 100px;
+    
+    }
+
+    <div class="headermax" > <!-- la navbar cuando esta la pantalla completa -->
+        <div class="row align-items-center" >
+          <div class="col text-center">
+            <a href="#cont3"><input type="button" value="productos" id="boton2"> </a>
+            
+          </div>
+          <div class="col-6 ">
+            <!-- <img src= "./imagenes/logo3.png"
+        alt=" imagen de un gatito" width="96" height="70"> </div> -->
+        <h1>logo</h1>
+          </div>
+          <div class="col text-center">
+            <a href="#div4"><input type="button" value="contacto" id="boton2"> </a>
+          </div>
+        
+        </div>
+    </div>
