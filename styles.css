@@ -65,7 +65,7 @@ h1{ /* parrafo de introduccion */
     position: fixed;
     bottom:0;
     right: 0;
-    width: 100px;
+    width: 150px;
  
           }
          
@@ -169,17 +169,26 @@ img{ /* las fotos del div */
     margin: auto;
 }
 
-#btn1,#btn2,#btn3{ /* botones de la navbar */
-    /* color: black;
-    background-color: #5a6c16;
-    padding: 40px;
-    border: 0;
-    margin: 10;
-    font-size: larger; */
+#btn2{ /* es el contacto */
     text-align: center;
-    border-radius: 25px;
-    padding: 30px;
-    
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 15px;
+    background-color: #5a6c16;
+}
+#btn1{ /* es el producto */
+    text-align: center;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding: 15px;
+    background-color: red;
+}
+
+#btn3{ /* es el home */
+    border-radius: 0;
+    padding: 15px;
+    background-color: #5a6c16;
+    text-align: center;
 }
 
 .menu{
