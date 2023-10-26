@@ -1,0 +1,35 @@
+.body{
+    background-color: blueviolet;
+}
+.navbar{
+    display: inline;
+    justify-content: space-between;
+    margin-right: 30px;
+    z-index: 1;
+}
+.container{ 
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    background-color: #f5e1da;
+    text-align: center;
+}
+
+.containerNombre{
+    height: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #f0ece2;
+    text-align: center;
+}
+.container0{
+    background-color: #f5e1da;
+    margin-bottom: 0;
+}
+
+.fixed2{
+    position: fixed;
+    bottom:0;
+    right: 0;
+    width: 150px;
+          }

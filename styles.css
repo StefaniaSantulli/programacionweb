@@ -20,11 +20,16 @@ p{ /* parrafo de introduccion */
     color:azure;
 }
 h1{ /* parrafo de introduccion */
-    font-size: 400px;
     font-family: Muli, sans-serif;
-    font-size: 16px;
-    color:azure;
-    padding-top: 90px;
+    padding-top: 10px;
+    font-size: 30vw;
+
+}
+
+#tituloprincipal{
+    font-family: Muli, sans-serif;
+    padding-top: 110px;
+    font-size: 10vw;
 }
 
 .container,.headermax{ /* centro de la navbar */
@@ -66,7 +71,6 @@ h1{ /* parrafo de introduccion */
     bottom:0;
     right: 0;
     width: 150px;
- 
           }
          
 .fixed2{
@@ -88,15 +92,11 @@ h1{ /* parrafo de introduccion */
             display:none;
           }
         #headermin{ /* va hacer que que aparezca el boton  */
-            background-color:blueviolet;
             position: fixed;
-            border-radius: 50%;
-            width: 50px;
-            height: 50px;
-        }
-    
-        .dropdown-toggle {
-            background-color: blue;
+            width: 100px;
+            height: 100px;
+            margin-right: 10px;
+            margin-bottom: 50px;   
         }
         .container2max{
             display: none;
@@ -153,6 +153,19 @@ h1{ /* parrafo de introduccion */
     text-align: center;
 }
 
+.container34{
+    background-color:#d7cbae ;
+    padding-bottom: 50px;
+    justify-content: center;
+    text-align: center;
+
+}
+.btn4{
+    justify-content: center;
+    display: inline
+
+}
+
 .container4{ /* contacto  */
     font-size: 24px;
     background-color :#5a6c16; ;
@@ -175,13 +188,15 @@ img{ /* las fotos del div */
     border-bottom-right-radius: 25px;
     padding: 15px;
     background-color: #5a6c16;
+    color: white;
 }
 #btn1{ /* es el producto */
     text-align: center;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
     padding: 15px;
-    background-color: red;
+    background-color: #5a6c16;
+    color: white;
 }
 
 #btn3{ /* es el home */
@@ -189,6 +204,7 @@ img{ /* las fotos del div */
     padding: 15px;
     background-color: #5a6c16;
     text-align: center;
+    color: white;
 }
 
 .menu{
@@ -224,4 +240,47 @@ img{ /* las fotos del div */
     padding-right: 40px;
     flex: 1;
     margin-left: 500px;
+}
+
+
+.dropdown {
+    display: inline-block;
+    position: fixed;
+    width: 150px;
+  }
+    
+.dropdown-content {
+    display: none;
+    position: absolute;
+    overflow: auto;
+
+    width: 100%;
+    box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.4);
+  }
+.dropdown:hover .dropdown-content { /* va hacer que la tocar aparezcan las opciones */
+    display: block;
+  }
+.dropdown-content a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none; 
+  }
+.dropdown-content a:hover {
+    color: #FFFFFF; /* color de las letras */
+    background-color: #a5d39e;
+  }
+
+#menu{
+    color: white;
+    background-color: #5a6c16;
+    border-radius: 50%;
+    padding: 15px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#div4{
+    text-align: center;
+    justify-content: center;
 }

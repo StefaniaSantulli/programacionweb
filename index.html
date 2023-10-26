@@ -11,6 +11,8 @@
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styleBoostrap.css">
+    <script src="script.js"></script>
+
 </head>
     
 <header>
@@ -18,13 +20,13 @@
 <div clas="headermax">
 
     <div class="fixed2" >
-            <a href="#cont3"> <input type="btn button" value="Productos" id="btn1"> </a>
+            <a href="#cont3"> <input type="btn button" value="Productos" id="btn1"></a>
             <a href="#div1"> <input type="btn button" value="Home" id="btn3"> </a>
             <a href="#div4"> <input type="btn button" value="contacto" id="btn2"> </a>
      </div>
     </header>
     
-    <div class="headermin" id="headermin" role="group"> <!-- la navbar cuando se minimiza la pantalla -->
+  <!--   <div class="headermin" id="headermin" role="group"> 
         <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
           <menu></menu>
         </button>
@@ -33,24 +35,26 @@
           <li><a class="dropdown-item" href="#div4">contacto</a></li>
         </ul>
       </div>
-    
-    
+    </div> -->
+
+    <div class="dropdown" id="headermin">
+        <button id="menu">Menu</button>
+        <div class="dropdown-content">
+        <a href="#divproductos">productos</a>
+        <a href="#div4">contacto</a>
+        </div>
     </div>
 
   
 
 <div >
-    
-    
         <img class="fixed" src="./imagenes/logo3.png" >
 </div>
 
 
 <div class="container1" id="div1">
-     <h1>Alita_rt</h1>
-    
-     <!-- <img src="./imagenes/logo3.png" width="300px" height="400px"> -->
-      </div> </div></div>
+     <h1 id="tituloprincipal">Alita_rt</h1>
+          </div> 
 
 <div class="container2max" >
         <div class>
@@ -85,6 +89,9 @@
                   </div>
                   <div class="carousel-item">
                     <img src="../imagenes/vela2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./imagenes/vela3.jpg" class="d-block w-100" alt="...">
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -153,29 +160,18 @@
         </div> 
       
 </div></div>
+<div class="container34">
+    <a href="Otras-paginas/pagina2/index2.html"> <input type="btn button" class="btn btn-outline-success" value="Ver Mas +" id="btn4"></a>
+
+    </div>
 
 <div class="container4" id="div4">
-    <div class="row justify-content-md-center">
-        <div class="col col-lg-2"></div>
-        <div class="col-md-auto">
-            Contactame!
-          </div>
-          <div class="col col-lg-2"></div>
-        <div class="row">
-            <div class="col">
-            </div>
-            <div class="col-md-auto">
-            <a href="https://www.instagram.com/alita_rt/" target="_blank"> @alita_rt</a>
-            </div>
-            <div class="col">
-                
-              
-      </div>
-</div></div>
+    
+        Contactame!
+        <br>
+<a href="https://www.instagram.com/alita_rt/" target="_blank"> @alita_rt</a>
+</div>
 
-
-  
-</body>
 
 
 

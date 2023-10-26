@@ -1,0 +1,76 @@
+<div class="container03" id="divproductos">
+    <div class>
+    <div class="row align-items-center" id="h0">
+        <button type="button" class="btn btn-outline-success" style="color: #FFFFFF;">Mi Trabajo</button>
+
+        </div> 
+      
+    </div></div> 
+
+
+#div1,.container{ /* titulo principal */
+        background-color:  #d4d2b4;
+        width:100%;
+        display:flex;
+        justify-content: center;
+        height: 400px;
+        padding: 70px;
+        font-size: 100px;
+    
+    }
+
+    <div class="headermax" > <!-- la navbar cuando esta la pantalla completa -->
+        <div class="row align-items-center" >
+          <div class="col text-center">
+            <a href="#cont3"><input type="button" value="productos" id="boton2"> </a>
+            
+          </div>
+          <div class="col-6 ">
+        
+        <h1>logo</h1>
+          </div>
+          <div class="col text-center">
+            <a href="#div4"><input type="button" value="contacto" id="boton2"> </a>
+          </div>
+        
+        </div>
+    </div>
+
+
+
+    #headermin{ /* va hacer que que aparezca el boton  */
+        background-color:blueviolet;
+        position: fixed;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+    }
+    .dropdown-toggle {
+        background-color: blue;
+    }
+    .dropdown-toggle::after{
+        border-top: 0!important;
+        border-bottom: 0!important;
+        border-left: 0!important;
+        border-right: 0!important;
+    }
+
+
+    <div class="container4" id="div4">
+        <div class="row justify-content-md-center">
+            <div class="col col-lg-2"></div>
+            <div class="col-md-auto">
+                Contactame!
+              </div>
+              <div class="col col-lg-2"></div>
+            <div class="row">
+                <div class="col">
+                </div>
+                <div class="col-md-auto">
+                <a href="https://www.instagram.com/alita_rt/" target="_blank"> @alita_rt</a>
+                </div>
+                <div class="col">
+                    
+                  
+          </div>
+    </div></div>
