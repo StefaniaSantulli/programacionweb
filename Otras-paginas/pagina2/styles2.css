@@ -1,5 +1,5 @@
 .body{
-    background-color: blueviolet;
+    background-color: #f5e1da;
 }
 .navbar{
     display: inline;
@@ -10,13 +10,13 @@
 .container{ 
     justify-content: center;
     margin-top: 35px;
-    margin-bottom: 35px;
     background-color: #f5e1da;
     text-align: center;
+    padding-bottom: 35px;
 }
 
 .containerNombre{
-    height: 40px;
+    height: 70px;
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #f0ece2;
@@ -33,3 +33,11 @@
     right: 0;
     width: 150px;
           }
+
+.body{
+    background-color:#f5e1da ;
+}
+
+#titulo{
+    font-size: 30px;
+}
