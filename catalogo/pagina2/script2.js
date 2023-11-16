@@ -16,5 +16,3 @@ for(let i=0;i<=imgjava.length-1;i++){
 for(let i=0;i<=imgjava.length-1;i++){
     numeroDeImagen = i;
     imgjava[i].addEventListener("mouseover",cambiarfondo)}
-
-console.log("funcionaaa")
