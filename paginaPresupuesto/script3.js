@@ -1,27 +1,15 @@
 console.log("holaa")
 
-/* let Total = 0
-function sumaProductos(Valoritem) {
-    Total = Total + Valoritem
-    document.getElementById("preciototal").innerHTML = "TOTAL: " + "$" + Total; 
-    document.getElementById("valorProducto").value = Total
-    return Total}
-
-function Limpiar() {
-    Total=0
-    document.getElementById("elTotal").innerHTML = "TOTAL: " + "$" + 0; }
- */
-
 let Total = 0;
 
-function sumaProductos(Valoritem) {
-    Total = Total + Valoritem;
+function sumaProductos(vlor) {
+    Total = Total + vlor;
     document.getElementById("preciototal").innerHTML = "TOTAL: " + "$" + Total; 
     document.getElementById("valorProducto").value = Total;
     return Total;
 }
 
-function Limpiar() {
+function Borrar() {
     Total = 0;
     document.getElementById("preciototal").innerHTML = "TOTAL: " + "$" + 0;
     document.getElementById("valorProducto").value = 0;
@@ -38,4 +26,4 @@ document.getElementById("botonC").addEventListener("click", function() {
     sumaProductos(700);
 });
 // Asocia la función Limpiar al hacer clic en otro botón (de limpieza)
-document.getElementById("borrar").addEventListener("click", Limpiar);
+document.getElementById("borrar").addEventListener("click", Borrar);
