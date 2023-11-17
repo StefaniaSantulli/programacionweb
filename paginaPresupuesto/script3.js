@@ -1,6 +1,7 @@
 console.log("holaa")
 
 let Total = 0;
+let listaProductos=[]
 
 function sumaProductos(vlor) {
     Total = Total + vlor;

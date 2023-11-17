@@ -23,6 +23,7 @@
     padding-bottom: 0;
     padding-top: 75px;
     height: 150px;
+    display: flex;
 }
 .contenedor3{ 
     justify-content: center;
@@ -63,6 +64,8 @@
     padding: 10px;
     width: 65px;
     border-radius: 10px;
+}
 
-
+.col{
+    background-color: #faeee0;
 }
