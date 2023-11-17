@@ -17,10 +17,11 @@ body{
 }
 p,h2{ /* parrafo de introduccion */
     font-size: 400px;
-    font-family: Muli, sans-serif;
+    font-family: 'Cabin', sans-serif;
     font-size: 16px;
     color:azure;
 }
+
 h1{ /* parrafo de introduccion */
     font-family: Muli, sans-serif;
     padding-top: 10px;
@@ -29,9 +30,10 @@ h1{ /* parrafo de introduccion */
 }
 
 #tituloprincipal{
-    font-family: Muli, sans-serif;
+    font-family: 'Glass Antiqua', cursive;
     padding-top: 110px;
     font-size: 10vw;
+    font-weight: 400;
 }
 
 .container,.headermax{ /* centro de la navbar */
@@ -108,6 +110,8 @@ h1{ /* parrafo de introduccion */
         }
         .menu{
             display: none;
+        }
+        .div1{
         }
     }
     
@@ -217,8 +221,6 @@ img{ /* las fotos del div */
     text-align: center;
     color: white;
 }
-
-
 
 
 .menu{
