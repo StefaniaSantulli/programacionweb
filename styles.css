@@ -5,7 +5,7 @@
     width:100%;
     display:flex;
     justify-content: center;
-    height: 400px;
+    height: 300px;
     padding: 70px;
     font-size: 100px;
 }
@@ -30,10 +30,11 @@ h1{ /* parrafo de introduccion */
 }
 
 #tituloprincipal{
-    font-family: 'Glass Antiqua', cursive;
-    padding-top: 110px;
+    font-family: 'Bebas Neue', sans-serif;
+    padding-top: 60px;
     font-size: 10vw;
     font-weight: 400;
+
 }
 
 .container,.headermax{ /* centro de la navbar */
@@ -54,7 +55,7 @@ h1{ /* parrafo de introduccion */
 
 .container2max{
         font-size: 36px;
-        background-color:  #c2d5aa;
+        background-color: #a9b388;
         padding: 70px;
         height: 400px;
         text-align: center;
@@ -64,7 +65,7 @@ h1{ /* parrafo de introduccion */
     }
 
 .badge{
-        background-color:#5a6c16;
+        background-color:#c6c09c;
         height: 30px;
         font-size: 50px;
     }  
@@ -300,3 +301,8 @@ img{ /* las fotos del div */
     text-align: center;
     justify-content: center;
 }
+.containersubtitulo{
+    background-color:#f4e7d5 ;
+    border-top: red;
+}
+

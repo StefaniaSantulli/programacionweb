@@ -1,20 +1,25 @@
-let imgjava = document.getElementsByClassName("imgjava")
-console.log(imgjava)
-
-
-function cambiarfondo(){
-    this.style.filter = "blur(10px)";
-
-}
-function cambiarfondo2(){
-    this.style.filter = "blur(0px)"
-}
-
-for(let i=0;i<=imgjava.length-1;i++){
-    imgjava[i].addEventListener("mouseleave", cambiarfondo2);
-}
-for(let i=0;i<=imgjava.length-1;i++){
-    numeroDeImagen = i;
-    imgjava[i].addEventListener("mouseover",cambiarfondo)}
+let Foto = document.getElementsByClassName("foto")
 
 console.log("funcionaaa")
+
+function cambiarfondo(){
+    this.style.transform = "scale(1.1)"; 
+    this.style.transition = "transform 0.3s ease";
+}
+function cambiarfondo2(){
+    this.style.transform = "scale(1)"}
+
+
+for(let i=0;i<=Foto.length-1;i++){
+    numeroDeImagen = i;
+    Foto[i].addEventListener("mouseover",cambiarfondo)}
+
+for(let i=0;i<=Foto.length-1;i++){
+        Foto[i].addEventListener("mouseleave", cambiarfondo2);}
+    
+    
+
+for (let i = 0; i < fotos.length; i++) {
+        fotos[i].addEventListener("mouseover", cambiarFondo);
+        fotos[i].addEventListener("mouseleave", cambiarFondo2);    }
+
