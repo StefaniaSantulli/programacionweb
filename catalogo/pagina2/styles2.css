@@ -50,3 +50,17 @@
     text-align: center;
     color: white;
 }
+
+#btn4{
+    background-color: #f9ebc7;
+    border-radius: 20px;
+    margin-top: 15px;
+    width: 100px;
+    margin-left: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
+    color:#c4661f;
+    border-color: #c4661f;
+    border-width: 2px;
+
+}

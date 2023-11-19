@@ -3,15 +3,16 @@
     margin-top: 0;
     background-color: #faeee0;
     text-align: center;
-    padding-bottom: 200px;
-    padding-top: 75px;
+    padding-bottom: 100px;
+    padding-top: 65px;
     height: 450px;
 }
 .contenedor0{
-    height: 80px;
+    height: 10px;
     text-align: center;
     padding-top: 30px;
     background-color: #faeee0;
+    padding-bottom: 0;
 
 
 }
@@ -21,7 +22,7 @@
     background-color:#faeee0;
     text-align: center;
     padding-bottom: 0;
-    padding-top: 75px;
+    padding-top: 25px;
     height: 150px;
     display: flex;
 }
@@ -31,8 +32,8 @@
     background-color:#faeee0;
     text-align: center;
     padding-bottom: 5px;
-    padding-top: 15px;
-    height: 200px;
+    padding-top: 5px;
+    height: 250px;
 }
 .texto{
     font-size: 35px;

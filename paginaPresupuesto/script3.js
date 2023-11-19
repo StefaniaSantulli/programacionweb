@@ -1,5 +1,8 @@
 let Total = 0;
 let listaProducto=[]
+let totalmaceta=0
+let totalmosaico=0
+let totalvela=0
 
 function sumaProductos(vlor) {
     Total = Total + vlor;
@@ -11,16 +14,16 @@ function sumaProductos(vlor) {
 
 function Lista(vlor) {
     if (vlor === 300) {
-        listaProducto.push("Maceta $300");
-        document.getElementById("listaProductos").innerHTML = "Productos Seleccionados: " + listaProducto.join(', '); 
+        totalmaceta+=1
+        document.getElementById("listaMaceta").innerHTML = "Macetas: " + totalmaceta +"X "+ "$300"; 
     }
     if (vlor === 500) {
-        listaProducto.push("Mosaico $500");
-        document.getElementById("listaProductos").innerHTML = "Productos Seleccionados: " + listaProducto.join(', '); 
+        totalmosaico+=1
+        document.getElementById("listaMosaicos").innerHTML = "Mosaico: " + totalmosaico +"X "+ "$500"; 
     }
     if (vlor === 700) {
-        listaProducto.push("Vela $700");
-        document.getElementById("listaProductos").innerHTML = "Productos Seleccionados: " + listaProducto.join(', '); 
+        totalvela+=1
+        document.getElementById("listaVelas").innerHTML = "Velas: " + totalvela +"X "+ "$700"; 
     } 
 }
 
@@ -32,10 +35,14 @@ function Borrar() {
 }
 
 function borrarlista(){
-    listaProducto=[]
-    document.getElementById("listaProductos").innerHTML = "Productos Seleccionados:";
-    document.getElementById("listaProductos").value = [];
-    document.getElementById("listaProductos").innerHTML = "Productos Seleccionados: ";
+    totalmaceta=0
+    document.getElementById("listaMaceta").innerHTML = "Macetas: ";
+    totalmosaico=0
+    document.getElementById("listaMosaicos").innerHTML = "Mosaico: ";
+    totalvela=0
+    document.getElementById("listaVelas").innerHTML = "Velas: ";
+
+
 }
 
 

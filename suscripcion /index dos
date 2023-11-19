@@ -1,0 +1,36 @@
+<div class="contenedor">
+    <a href="/index.html"> <input type="btn button" value="volver" id="boton"></a>
+
+<div class="container">
+    <h1>Para recibir mas novedades!</h1>
+    <form target="_blank" action="https://formsubmit.co/ssantulli@itba.edu.ar" method="POST">
+      <div class="form-group">
+        <div class="form-row">
+          <div class="col">
+            <input type="text" name="name" class="form-control" placeholder="Nombre completo" required>
+          </div>
+          <div class="col">
+            <input type="email" name="email" class="form-control" placeholder="Email" required>
+          </div>
+        </div>
+      </div>
+      <div class="form-floating">
+        <select class="form-select" id="floatingSelect" >
+          <option selected>Todos los productos</option>
+          <option value="1">Velas</option>
+          <option value="2">Macetas</option>
+          <option value="3">Mosaicos</option>
+        </select>
+        <label for="floatingSelect">quiero recibir novedade de: </label>
+      </div>
+      <div class="form-group">
+        <textarea placeholder="Quiero escuchar tu opinion!" class="form-control" name="message" rows="10" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-lg btn-dark btn-block">Enviar</button>
+    </form>
+    
+  </div></div>
+
+<div id="hola" >
+    <img class="fixed" src="./imagenes4/logo3.png" >
+</div>

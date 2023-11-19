@@ -52,18 +52,6 @@ h1{ /* parrafo de introduccion */
 }
 
 
-
-.container2max{
-        font-size: 36px;
-        background-color: #a9b388;
-        padding: 70px;
-        height: 400px;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        
-    }
-
 .badge{
         background-color:#c6c09c;
         height: 30px;
@@ -300,9 +288,5 @@ img{ /* las fotos del div */
 #div4{
     text-align: center;
     justify-content: center;
-}
-.containersubtitulo{
-    background-color:#f4e7d5 ;
-    border-top: red;
 }
 
