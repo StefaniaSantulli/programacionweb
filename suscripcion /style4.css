@@ -13,12 +13,13 @@ h1 {
 .contenedor{
     background-color: #e1daca;
     margin-top:0px;
-    height: 750px;
+    height: 100%;
     padding-right: 0;
     margin-right: 0;
     width: 100%;
     margin-bottom: 0px;
     max-height: fit-content;
+    padding-bottom: 90px;
 
 }
 
