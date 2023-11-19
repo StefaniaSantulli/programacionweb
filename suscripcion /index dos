@@ -15,7 +15,7 @@
         </div>
       </div>
       <div class="form-floating">
-        <select class="form-select" id="floatingSelect" >
+        <select class="form-select">
           <option selected>Todos los productos</option>
           <option value="1">Velas</option>
           <option value="2">Macetas</option>
@@ -23,7 +23,7 @@
         </select>
         <label for="floatingSelect">quiero recibir novedade de: </label>
       </div>
-      <div class="form-group">
+      <div class="form-group" id="campo2">
         <textarea placeholder="Quiero escuchar tu opinion!" class="form-control" name="message" rows="10" required></textarea>
       </div>
       <button type="submit" class="btn btn-lg btn-dark btn-block">Enviar</button>
